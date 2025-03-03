@@ -37,7 +37,7 @@ int	ft_hex(unsigned int nb)
 }
 int ft_putnbr(int nb)
 {
-	int count = 0 ;
+	int count = 0;
 	if (nb < 0)
 	{
 		write(1, "-", 1);
@@ -45,8 +45,12 @@ int ft_putnbr(int nb)
 		nb = -nb;
 	}
 	if (nb >= 10)
-		count += ft_putnbr(nb /10);
-	count += ft_putchar(nb % 10 + '0');
+	{
+			count += ft_putnbr(nb /10);
+			count += ft_putchar(nb % 10 + 48);
+	}
+	else
+		count += ft_putchar(nb % 10 + '0');
 	return (count);
 }
 int	check(const char str, va_list args)
