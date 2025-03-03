@@ -1,0 +1,19 @@
+chained list : data structure of elements thats are all chained together
+for pushswap i must use liste doublement chaine
+
+create header white the struct of the chained list
+
+first init my chained list, chaque element est connecte les un a la suite des autres mais vu que c est une liste doublement chainee et bien indirectement le debut et la fin (head) sont aussi lie.
+
+a chained contain node ( element de la liste chainee ) comme une corde avec plein de noed, chaque noed contain elements of data, value of variable and his position.Aslo a node contain reference pointers for the next node and the previous one
+
+sa : swap 2 first node of the stack a
+sa : swap 2 first node of the stack b
+ss : swap 2 first node of the stack a and b
+ra : push the first node of the stack a to the bottom of the same stack
+rb : push the first node of the stack b to the bottom of the same stack rr : rotate both a and b at the same time like ra and rb together\
+rra and rrb : put the last node to the top of the stack
+rrr : rra and rrb at the same time
+pa : push the first node of the stack b to the top of the stack a
+pb : push the first node of the stack a to the top of the stack b
+

@@ -1,0 +1,49 @@
+5e5db3984aba7941e9c4621b1c27c0d4d1a10a2c
+
+apparmor : system de secu linux permet a un admin rstr action des process
+dflt sur debian
+
+hostnamectl set-hostname ...
+sudo vim /etc/hosts
+
+lsblk
+
+dpkg -l | grep sudo/ssh/ufw -
+
+lvm modifier les partition logique du disque de stockage
+
+ufw outil pour configurer des pare feu de maniere simple et secu
+genre connexion reseau port config connexion ssh sur port specifique
+
+ssh(secure shell) outil de connexion via entre un hote et un client
+securise, chiffre les donne echange moyen de se co a un serveur
+
+Cron outil qui planifie l execution de cmd ou de script a des interval specifique
+
+ufw status
+
+systemctl status ssh/ufw
+
+getent group sudo
+
+usermod -aG group user
+
+adduser/userdel/addgroup/groupdel
+
+ufw allow 7272
+
+ufw status numbered / ufw delete number
+
+ssh user@localhost -p 1414
+
+chage -l user
+
+cat /usr/local/bin/monitoring.sh
+
+sudo visudo
+
+sudo crontab -u root -e
+
+cat /etc/pam.d/common-password
+
+uname -a
